@@ -10,7 +10,7 @@ const getMe_url = `${bot}${token}/getMe`
 
 axios.get(getMe_url)
     .then(function (response) {
-        //console.log(`Get Me: ${response.status}`)
+        console.log(response);
     })
 
 // Get Updates
